@@ -2,6 +2,8 @@
 
 body {
   background-color: rgb(229, 229, 188);
+  background-image: url("https://www.aljazeera.com/wp-content/uploads/2021/05/2021-05-29T211450Z_894872287_UP1EH5T1N0OMB_RTRMADP_3_SOCCER-CHAMPIONS-MCI-CHE-REPORT.jpg?resize=770%2C513");
+  background-color: #cccccc;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 button {
@@ -41,4 +43,7 @@ button:focus {
   margin: 4px 2px;
   cursor: pointer;
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+h1 {
+  color: white;
 }

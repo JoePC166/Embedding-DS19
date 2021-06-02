@@ -10,8 +10,10 @@ let viz;
 const vizContainer = document.getElementById("vizContainer");
 const vizUrl =
   "https://public.tableau.com/views/LearnEmbeddedAnalytics/SalesOverviewDashboard";
+
 const vizOptions = {
-  device: "desktop",
+  height: 800,
+  width: 1000,
   hideToolbar: true, //does not work on public
   Category: ["Technology", "Furniture"],
   onFirstInteractive: function () {

@@ -12,7 +12,12 @@ const vizUrl =
   "https://public.tableau.com/views/LearnEmbeddedAnalytics/SalesOverviewDashboard";
 const vizOptions = {
   device: "desktop",
-  hideToolbar: true,
+  hideToolbar: true, //does not work on public
+  Category: ["Technology", "Furniture"],
+  onFirstInteractive: function () {
+    console.log("The viz is interactive");
+    document.getElementById("ExportPDF").disabled = false;
+  },
 };
 
 function initViz() {
